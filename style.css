@@ -1,0 +1,86 @@
+body {
+    /* old browsers */
+    background: rgba(37, 121, 128, 0.933);
+    background: -webkit-repeating-linear-gradient(rgba(37, 170, 170, 0.333));
+    background: linear-gradient(-4deg rgb(109, 214, 162));
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: beige;
+    font-size: 2em;
+    padding-top: 100px;
+    width: 100%;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 500px;
+    color: rgba(23, 27, 27, 0.933);
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 24px;
+    padding-bottom: 30px;
+    text-align: start;
+    width: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+p {
+    color: antiquewhite;
+    line-height: 15px;
+    text-align: center;
+    width: 10px;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 200px;
+}
+
+.byline {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blanchedalmond;
+    float: left;
+    font-size: 14px;
+    padding-left: 10px;
+    text-transform: uppercase;
+}
+
+.caption {
+    display: block;
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    line-height: 14px;
+    margin-left: 20px;
+    padding: relative;
+    top: 100%;
+    width: 60%;
+    background-color: rgb(97, 59, 59);
+    color: white;
+}
+
+.content {
+    padding: 50px;
+}
+
+.image {
+    background-image: url(https://images.unsplash.com/photo-1659292862553-9abeb58ac8a1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format
+    &fit=crop&w=687&q=80);
+    background-size: cover;
+    background-position: center;
+    hight: 300px;
+}
+.write-image {
+    -webkit-box-flex: initial;
+    -moz-box-flex: initial;
+    box-shadow: 50px;
+}
+img {
+    font-size: 50px;
+    height: 300px;
+    width: 200px;
+    display: flow-root;
+    padding-left: 10px;
+    padding-top: 10%;
+}
